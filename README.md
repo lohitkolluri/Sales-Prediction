@@ -24,21 +24,25 @@ The dataset used in this project is sourced from the "Predict Future Sales" comp
 
 To use this dataset, you will need to create a Kaggle account and accept the competition's rules to access the data. Once you have downloaded the dataset, ensure that the CSV files are in the correct directory for the code to read and process the data.
 
-
 ## Data Cleaning
+
 The data cleaning process involves removing outliers, handling missing values, and correcting inconsistencies in the data. Various cleaning techniques such as boxplot analysis, outlier removal, and label encoding are applied to ensure the data is suitable for analysis and modeling.
 
 ## Feature Engineering
+
 Feature engineering is a crucial step in building predictive models. In this project, we create new features by adding lagged values of the target variable (item count) at different time intervals. Additionally, we calculate average item counts for various combinations of time, shop, and item, which provide valuable historical information for prediction.
 
 ## Model Training
+
 After performing feature engineering, we train a machine learning model to predict future sales. The specific model used can be customized based on the requirements of the project. Commonly used models for time series forecasting include linear regression, random forest, and gradient boosting algorithms.
+
+
 
 ## Usage
 To run the code and reproduce the results:
 
-1. Clone this repository: `git clone https://github.com/your-username/future-sales-prediction.git`
+1. Clone this repository: `git clone https://github.com/your-username/fCodeClause_Sales_Predictor.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Ensure that the dataset files (`items.csv`, `shops.csv`, `item_categories.csv`, `sales_train.csv`, `test.csv`) are in the correct directory.
-4. Run the `future_sales_prediction.ipynb` notebook to execute the code and generate the predictions.
+4. Run the `Sales_Predictor.ipynb` notebook to execute the code and generate the predictions.
 5. The output will be stored in a file or displayed on the console, depending on the implementation.
