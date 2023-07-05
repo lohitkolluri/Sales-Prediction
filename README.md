@@ -41,7 +41,7 @@ After performing feature engineering, we train a machine learning model to predi
 ## Usage
 To run the code and reproduce the results:
 
-1. Clone this repository: `git clone https://github.com/your-username/fCodeClause_Sales_Predictor.git`
+1. Clone this repository: `git clone https://github.com/your-username/Sales_Predictor.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Ensure that the dataset files (`items.csv`, `shops.csv`, `item_categories.csv`, `sales_train.csv`, `test.csv`) are in the correct directory.
 4. Run the `Sales_Predictor.ipynb` notebook to execute the code and generate the predictions.
